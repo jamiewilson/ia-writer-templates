@@ -31,7 +31,7 @@
 @media screen {
 	.markdown-body {
 		margin: 0 auto;
-		max-width: 830px;
+		max-width: 65ch;
 	}
 }
 
@@ -69,10 +69,12 @@
 	.markdown-body {
 		--horizontal-padding: 75px;
 	}
+
 	.markdown-body p {
 		widows: 2; /* avoid single lines at... */
 		orphans: 2; /* ...begin and end of page */
 	}
+
 	.markdown-body pre code {
 		white-space: pre-wrap;
 	}
@@ -90,6 +92,7 @@
        instead, increase the calculated height of headlines by using an invisible element and forbid breaks within: */
 		page-break-inside: avoid;
 	}
+
 	.markdown-body h1::after,
 	.markdown-body h2::after,
 	.markdown-body h3::after,
@@ -101,6 +104,7 @@
 		height: 50px;
 		margin-bottom: -50px;
 	}
+
 	/* github-markdown.css does define bottom padding and border for h1 / h2 which conflicts with this hack 
      remove these and define them top of the workaround instead */
 	.markdown-body h1,
@@ -108,6 +112,7 @@
 		padding-bottom: unset;
 		border-bottom: unset;
 	}
+
 	.markdown-body h1::after,
 	.markdown-body h2::after {
 		margin-top: 0.3em;
@@ -119,6 +124,7 @@
 .markdown-body .task-list-item {
 	clear: left;
 }
+
 .markdown-body .task-list-item-checkbox {
 	float: left; /* takes out of flow */
 	height: 1.5rem; /* same as line height */
