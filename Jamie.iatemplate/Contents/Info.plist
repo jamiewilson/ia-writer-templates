@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleIdentifier</key>
+	<string>io.jamiewilson.customized</string>
+	<key>CFBundleName</key>
+	<string>Jamie</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.1</string>
+	<key>CFBundleVersion</key>
+	<string>2</string>
+	<key>IATemplateDocumentFile</key>
+	<string>document</string>
+	<key>IATemplateFooterHeight</key>
+	<integer>90</integer>
+	<key>IATemplateHeaderHeight</key>
+	<integer>90</integer>
+	<key>IATemplateDescription</key>
+	<string>Customized GitHub document style.</string>
+	<key>IATemplateAuthor</key>
+	<string>Jamie Wilson</string>
+	<key>IATemplateAuthorURL</key>
+	<string>https://jamiewilson.io/</string>
+</dict>
+</plist>
