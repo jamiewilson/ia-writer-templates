@@ -5,7 +5,8 @@ html:not(.night-mode) {
 
 html:not(.night-mode) .markdown-body {
 	--font-size: 18px;
-	--leading: 1.8;
+	--leading: 1.6;
+	--max-width: 65ch;
 
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;

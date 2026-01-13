@@ -2,7 +2,6 @@
 /* .pl styles have been removed, because they refer to prettylights syntax highlighter https://github.com/primer/github-syntax-theme-generator */
 
 @import 'customized-github-markdown-light.css' screen, print;
-
 @import 'customized-github-markdown-dark.css' screen;
 
 .markdown-body {
@@ -31,7 +30,7 @@
 @media screen {
 	.markdown-body {
 		margin: 0 auto;
-		max-width: 65ch;
+		max-width: var(--max-width);
 	}
 }
 
